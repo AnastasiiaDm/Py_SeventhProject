@@ -3,14 +3,13 @@
 кортежа): периметр квадрата, площадь квадрата и диагональ квадрата.
 '''
 
+
 def square(side):
     perimeter = side * 4
     area = side ** 2
-    diagonal =  side * 1.41421
-    # print('side:', side, '\nperimeter:', perimeter, '\narea:', area, '\ndiagonal:', diagonal)
-    resultInTuple = perimeter, area, diagonal
-    # print(type(resultInTuple))
-    print(resultInTuple)
+    diagonal = side * 1.41421
+    result_in_tuple = perimeter, area, diagonal
+    print(result_in_tuple)
 
 
 square(10)

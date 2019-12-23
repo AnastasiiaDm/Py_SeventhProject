@@ -2,22 +2,19 @@
 # быть произведена над ними. Если третий аргумент +, сложить их; если —, то вычесть; * — умножить; / — разделить
 # (первое на второе). В остальных случаях вернуть строку "Неизвестная операция".
 
-def arithmetic(x, y, action):
+
+def arithmetic (x, y, action):
     if action == '+':
-        print(x + y)
-        return
+        return x + y
 
     if action == '-':
-        print(x - y)
-        return
+        return x - y
 
     if '*' in action:
-        print(x * y)
-        return
+        return x * y
 
     if '/' in action:
-        print(x // y)
-        return
+        return x // y
 
     else:
         print('Unknown operation')

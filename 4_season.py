@@ -9,23 +9,19 @@ def season(monthNum):
     summer = 6, 7, 8
     autumn = 9, 10, 11
 
-    while monthNum in winter:
+    if monthNum in winter:
         print('Winter')
-        break
 
-    while monthNum in spring:
+    if monthNum in spring:
         print('Spring')
-        break
 
-    while monthNum in summer:
+    if monthNum in summer:
         print('Summer')
-        break
 
-    while monthNum in autumn:
+    if monthNum in autumn:
         print('Autumn')
-        break
 
 '''Enter int in range 1-12'''
-season(11)
+season(10)
 
 
