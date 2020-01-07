@@ -10,18 +10,17 @@ def season(monthNum):
     autumn = 9, 10, 11
 
     if monthNum in winter:
-        print('Winter')
+        return str('Winter')
 
     if monthNum in spring:
-        print('Spring')
+        return str('Spring')
 
     if monthNum in summer:
-        print('Summer')
+        return str('Summer')
 
     if monthNum in autumn:
-        print('Autumn')
+        return str('Autumn')
 
 '''Enter int in range 1-12'''
-season(10)
-
+season(1)
 

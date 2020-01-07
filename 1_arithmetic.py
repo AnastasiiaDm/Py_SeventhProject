@@ -17,7 +17,7 @@ def arithmetic (x, y, action):
         return x // y
 
     else:
-        print('Unknown operation')
+        return str('Unknown operation')
 
 
 arithmetic(x=10, y=2, action='/')

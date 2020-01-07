@@ -9,7 +9,7 @@ def square(side):
     area = side ** 2
     diagonal = side * 1.41421
     result_in_tuple = perimeter, area, diagonal
-    print(result_in_tuple)
+    return result_in_tuple
 
 
 square(10)
